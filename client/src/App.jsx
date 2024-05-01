@@ -33,7 +33,9 @@ function App() {
         setTypingUserId(null);
       }
     });
-  }, [typingUserId]);
+  }, [typing]);
+
+  // test
 
   // Function for typing user
   const showWhosTyping = () => {
